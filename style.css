@@ -1,0 +1,69 @@
+body{
+    margin: 0%;
+    font-family:Georgia, serif;
+}
+
+nav{
+    background-color:red;
+    color: black;
+    text-align: center;
+    padding: 2%;
+
+}
+
+header{
+    margin: 3%;
+}
+
+#head-title{
+    text-align: center;
+}
+
+#gental-text{
+    text-align: end;
+}
+
+#going-to{
+    text-align: center;
+    grid-area: title;
+}
+
+.button{
+    background-color: ghostwhite;
+    text-align: center;
+    max-width: 40%;
+    margin-top: 10%;
+    padding: 5%;
+    border: 1cm gray;
+    margin: 1cm;
+}
+
+footer{
+    background-color: brown;
+    padding: 10%;
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+#thames{
+    grid-area: thames;
+    align-items: center;
+}
+
+#medway{
+    grid-area: medway;
+    align-items: center;
+}
+
+#portlist{
+
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+"title title"
+    " thames medway";
+    display: grid;
+
+}
